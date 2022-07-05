@@ -3,22 +3,20 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 65px;
+    font-size: 60px;
 }
 h3{
     font-size: 30px;
 }
-span{
+.text-color{
     color: teal;
-}
-.first{
-    display: flex;
 }
 p{
     font-size: 20px;
 }
-section{
+.part{
     display: flex;
+    margin-bottom: 100px;
     
 }
 .half-width
@@ -33,11 +31,39 @@ section{
         color: white;
         text-decoration: none;
         background-color: teal;
-        font-weight: 500; 
+        font-weight: 550; 
         padding: 10px 60px;
         border-radius: 5px;
 }
 .top-banner{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big
+{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    box-shadow: 20px;
+    
+}
+.text-set{
+    width: 60%;
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px teal;
+    padding: 10px 10px 10px 10px;
+}
+.experince{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.align{
+    margin-left: 40px;
+}
+footer{
+    text-align: center;
 }
