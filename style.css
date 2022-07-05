@@ -1,0 +1,43 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 65px;
+}
+h3{
+    font-size: 30px;
+}
+span{
+    color: teal;
+}
+.first{
+    display: flex;
+}
+p{
+    font-size: 20px;
+}
+section{
+    display: flex;
+    
+}
+.half-width
+{
+    width: 50%;
+    padding: 40px;
+}
+.half-width img{
+    width: 100%;
+}
+.hire{
+        color: white;
+        text-decoration: none;
+        background-color: teal;
+        font-weight: 500; 
+        padding: 10px 60px;
+        border-radius: 5px;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
